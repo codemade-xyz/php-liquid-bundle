@@ -99,7 +99,7 @@ Add setting in framework.yaml
 
 ## Requirements
 
- * PHP 5.6+
+ * PHP 7.1+
 
 ## Fork notes and contributors
 

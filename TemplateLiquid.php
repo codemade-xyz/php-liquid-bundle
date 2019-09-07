@@ -20,7 +20,7 @@ class TemplateLiquid
         $this->settings = $settings;
         $this->kernel = $kernel;
         $this->paths = isset($this->settings['paths']) ? $this->settings['paths'] : [];
-        $this->defaultPath = isset($this->settings['paths']) ? $this->settings['paths']: [];
+        $this->defaultPath = isset($this->settings['default_path']) ? $this->settings['default_path']: '';
     }
 
 
