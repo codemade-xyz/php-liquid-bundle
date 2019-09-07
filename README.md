@@ -43,7 +43,7 @@ You can install this lib via [composer](https://getcomposer.org/):
 
 ## How to use Liquid in Symfony
 
-#####1. Connect bundle in file bundle.php or kernel.php
+####1. Connect bundle in file bundle.php or kernel.php
 
 Example add in kernel.php
 
@@ -57,7 +57,7 @@ Example add in kernel.php
         return $bundles;
     }
 
-#####2. Here is a simple example config
+####2. Here is a simple example config
 
 In config file add setting, if no values ​​are specified, then the default settings will be used.
 
@@ -72,7 +72,7 @@ In config file add setting, if no values ​​are specified, then the default s
       paths:
         'App': '%kernel.project_dir%/templates/App'
 
-#####3. In config file framework.yaml
+####3. In config file framework.yaml
 Add setting in framework.yaml
 
     framework:
@@ -80,7 +80,7 @@ Add setting in framework.yaml
       templating:
         engines: ['liquid']
 
-#####4. Use the standard functions in the controller to process the template.
+####4. Use the standard functions in the controller to process the template.
 
     <?php
     namespace App\Controller;
