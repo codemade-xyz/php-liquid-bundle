@@ -113,4 +113,4 @@ Add setting in framework.yaml
 ## Fork notes and contributors
 
 This bundle create for Symfony and use  
-[kalimatas](https://github.com/kalimatas/php-liquid) library Liquid!
+[harrydeluxe](https://github.com/harrydeluxe/php-liquid/issues) library Liquid!
