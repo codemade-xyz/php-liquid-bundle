@@ -24,7 +24,7 @@ class LiquidExtension extends Extension
         $configuration = new Configuration();
         $config = $this->processConfiguration($configuration, $configs);
 
-        $definition = $container->getDefinition('templating.engine.liquid');
+        $definition = $container->getDefinition('liquid');
         $definition->setPublic(true);
         $definition->setAutoconfigured(true);
         $definition->setAutowired(true);
