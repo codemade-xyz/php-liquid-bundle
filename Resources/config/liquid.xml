@@ -5,7 +5,7 @@
         http://symfony.com/schema/dic/services/services-1.0.xsd">
 
     <services>
-        <service id="templating.engine.liquid" class="CodeMade\LiquidBundle\TemplateLiquid">
+        <service id="liquid" class="CodeMade\LiquidBundle\TemplateLiquid">
             <argument type="service" id="kernel" />
             <argument>settings</argument>
         </service>
