@@ -1,4 +1,4 @@
-# Symfony Liquid Bundle - template engine for PHP 
+# Symfony 5.1 Liquid Bundle - template engine for PHP 
 
 Liquid is a PHP port of the [Liquid template engine for Ruby](https://github.com/Shopify/liquid), which was written by Tobias Lutke. Although there are many other templating engines for PHP, including Smarty (from which Liquid was partially inspired)
 
@@ -12,7 +12,7 @@ Liquid was written to meet three templating library requirements: good performan
 
 You can install this lib via [composer](https://getcomposer.org/):
 
-    composer request codemade-xyz/php-liquid-bundle
+    composer require codemade-xyz/php-liquid-bundle
 
 ## Example template
 
